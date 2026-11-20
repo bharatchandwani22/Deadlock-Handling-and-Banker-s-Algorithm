@@ -1,0 +1,12 @@
+test_need (test_deadlock.BankerTests.test_need) ... ok
+test_request (test_deadlock.BankerTests.test_request) ...     Pretend-allocate -> Available [2, 3, 0]; running safety check:
+ok
+test_safe (test_deadlock.BankerTests.test_safe) ... ok
+test_unsafe (test_deadlock.BankerTests.test_unsafe) ... ok
+test_modes (test_deadlock.ThreadTests.test_modes) ... [ 0.00s] T2 round 1 attempt 1: requesting R_B
+ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 3.266s
+
+OK
